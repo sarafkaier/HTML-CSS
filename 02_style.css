@@ -1,0 +1,50 @@
+/* commentaires en CSS */
+*{
+    text-align: right;
+}
+
+body{
+    background: #9370D8;
+}
+
+header{
+    background-color: #BC8F8F;
+    height : 100px;
+}
+
+nav{
+    background-color: #87CEFA;
+    height : 60px;
+}
+
+section{
+    background-color: #FFA07A;
+    height : 550px;
+}
+
+article{
+    background-color: #008080;
+    height : 66px;
+  }
+
+footer{
+    background-color: #4682B4;
+    height : 75px;
+  }
+
+nav, footer{
+    color: #6B8E23
+}
+
+/* je cible une class avec un point devant*/
+.jaune{
+    background-color: yellow;
+}
+
+/* je cible un id avec un dièse devant*/
+#noir{
+    background-color: black;
+    color: #fff;
+    text-align: justify;
+    font-size: 25px;
+}
