@@ -26,3 +26,46 @@
   section p:nth-child(odd){
       color:brown;/*les <p> impairs*/
   }
+
+  section p:nth-child(3), section p:nth-child(10){
+      color: orange;/*les <p> 3 et 10*/
+  }
+
+.zone1{/*Class donc avant son nom je mets un . */
+      color: #4046A4;
+
+  }
+
+.zone2{
+    color: #406EA4;
+
+  }
+
+
+.zone3{
+    color: #4046A4;
+
+  }
+
+.lime{
+      color: #40A469;
+
+  }
+
+#zone3{/*ID donc avant son nom je mets un # */
+    background-color: #40A470;
+  }
+
+#zone3:after{/*rajouter contenu après l'ID zone3 */
+    content: "rajouter après";
+  }
+
+#zone3:before{/*ID donc avant son nom je mets un # */
+    content: "rajouter avant";
+    background-color: cyan;
+  }
+
+li:nth-child(2){
+    background-color: darkred;
+    color: white;
+}

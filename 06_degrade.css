@@ -1,0 +1,7 @@
+  .contenu{
+    background: linear-gradient(to left, #D5E02A, #f6fea1);/*dégradé qui démarre avec la 1ère TO LEFT qui effectue le dégradé de gauche à droite*/
+    width: 45em;/*largeur*/
+    height: 45em;/*hauteur*/
+    margin: 0 auto;/*pas de marge (valeur 0) en haut et en bas - la valeur auto laisse le navigateur centrer l'élément*/
+    border-radius: 50% 10%;/*la propriété permet d'arrondir plus au moins les angles*/
+  }
