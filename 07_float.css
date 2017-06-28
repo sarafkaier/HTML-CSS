@@ -1,0 +1,35 @@
+body{
+  background-color: gray;
+  background: linear-gradient(to left, #8470FF, #f6fea1);
+}
+
+div{
+  margin: 50px 0 0 50px;
+}
+
+img{
+  height: 200px;/*hauteur*/
+  width: 280px;/*largeur*/
+  border: 5px outset brown;/*taille, style, couleur, de la bordure*/
+  margin: 15px;
+  display: block;
+  float: left;/*effet flottant, permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au-dessus des autres*/
+  transition: margin 0.5s;
+}
+
+img:hover{/*la pseudo-classe:hover*/
+  margin-top: 3px;
+}
+
+.clear{
+  clear: both;
+}
+
+p{
+  background-color: red;
+  /*display: inline;*/
+}
+
+P span{
+  background-color: yellow;
+}

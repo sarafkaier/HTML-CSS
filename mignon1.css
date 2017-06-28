@@ -1,0 +1,40 @@
+body{
+  background: white;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+tbody{
+  width:10px;
+	height:20px;
+	background:white;
+}
+
+
+table{
+  
+  border-collapse: collapse;
+}
+
+td{
+  background-color: yellow;
+  border: 1px solid black;
+  width: 2em;
+  height: 2em;
+}
+
+.white{
+  background-color: white;
+}
+
+.gray{
+  background-color: gray;
+}
+
+.black{
+  background-color: black;
+}
+
+.blue{
+  background-color: blue;
+}

@@ -1,0 +1,36 @@
+.c1, .c2, .c3, .c4, .c5 {
+  height: 2em;/*hauteur*/
+  width: 2em;/*largeur*/
+  /*border: 1px solid;/*si on ne met pas la 3ème valeur de la couleur du trait sera par défaut noir*/*/
+  margin: 2px;
+  float: left;
+  font-size: 60px;
+}
+
+.clear{
+  clear: both;
+}
+
+.c1{
+  background: linear-gradient(to left,#1E90FF, #483D8B);
+  border-radius: 20% 40%;
+}
+
+.c2{
+  background: linear-gradient(to left,#BC8F8F,#D02090);
+  border-radius: 50%;
+}
+
+.c3{
+  background: linear-gradient(to left,#3CB371,#00FF00);
+  border-radius: 40% 0%;
+}
+
+.c4{
+  background: linear-gradient(to left,#A0522D, #C0C0C0);
+  border-radius: 10% 20% 30% 40%;
+}
+
+  div:nth-child(){
+  background-color: red;
+}
