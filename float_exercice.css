@@ -31,6 +31,7 @@
   border-radius: 10% 20% 30% 40%;
 }
 
-  div:nth-child(){
+  section div:nth-child(14){
   background-color: red;
+  color: white;
 }
