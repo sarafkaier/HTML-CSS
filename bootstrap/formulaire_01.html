@@ -12,10 +12,10 @@
         .genre { display: inline-block; font-weight: bold; font-style: italic; color: midnightblue; width: 140px; font-size: 11px;}
         .input { width: 100%; background-color: lightcyan; border: 1px solid thistle;}
         textarea { width: 100%; background-color: lightcyan; border: 1px solid thistle; min-height: 60px;}
-        form{ padding: 0px 10px;}
+        form { padding: 0px 10px;}
         .container { width: 500px; margin: 0 auto; border: 1px solid indigo;}
         .bouton { width: 104%; background: linear-gradient(indigo, lightgrey, purple); color: white; padding: 10px; font-size: 14px; margin-left: -10px;}
-        .bouton:hover { background: linear-gradient(slateblue, grey) color: white; cursor: pointer; font-weight: bold;}
+        .bouton:hover { background: linear-gradient(slateblue, grey)  color: white; cursor: pointer; font-weight: bold;}
         .obs{ font-style: italic; font-size: 8px;}
         .datenaiss .jour .mois{ display: inline-block;}
     </style>
@@ -25,11 +25,13 @@
     <div class="container">
         <h1>Informations de contact</h1>
         <form method="post" action="">
-
+        <hr>
         <label for="nom">Nom</label>
+        </hr>
         <input type="text" id="nom" value="" class="input" placeholder="Dupont"><br>
 
-        <label for="prenom">Prenom</label>
+
+        <label for="prenom">Prénom</label>
         <input type="text" id="prenom" value="" class="input"><br>
 
         <label for="telephone">Téléphone</label>
@@ -72,8 +74,9 @@
 
         <label for="description">Description</label>
         <textarea id="description" name="description" rows="8" cols="80" class="input"></textarea><br />
-
+        <hr>
         <input type="submit" name="enregistrer" value="Enregistrer" class="bouton">
+        </hr>
     </form>
 </div>
 
