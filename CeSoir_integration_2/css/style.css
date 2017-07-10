@@ -1,0 +1,37 @@
+body{
+    background-color: #a2c5b8;
+    padding: 61px 482px;
+}
+
+nav{
+    text-align: right;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    header{
+        background-image: url(../img/planks0096.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 87%;
+        height: 391px;
+    }
+    #cerf{
+        width: 252px;
+        height: 250px;
+    }
+
+img{
+    background-position: center;
+    margin:4%;
+}
+
+p{
+    width: 87%;
+    height: 391px;
+}
