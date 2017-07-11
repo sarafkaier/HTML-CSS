@@ -5,7 +5,7 @@ body{
   padding: 0;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
-  background: url(img/ep_naturalwhite.png);
+  background: url(../img/ep_naturalwhite.png);
 }
 
 div#conteneur{
@@ -18,7 +18,7 @@ div#conteneur{
 
 h1#header{
   height: 258px;/*on personnalise la hauteur du titre H1*/
-  background: url(img/apple.jpg) no-repeat left top;
+  background: url(../img/apple.jpg) no-repeat left top;
   margin: 0;
 }
 
@@ -27,7 +27,7 @@ h1#header{
         width: 400px;
         height: 70px;
         display: block;
-        background: url(img/title.gif) no-repeat;
+        background: url(../img/title.gif) no-repeat;
         position: relative;
         left: 350px;
         top: 15px;
@@ -37,7 +37,7 @@ ul{
     height: 35px;/*on donne une hauteur au menu, correspondant à la taille de l'image utilisée en fond*/
     margin: 0;
     padding: 0;
-    background: url(img/bg_menu.gif) repeat-x 0 -25px;/*on met ensuite l'image de fond avec un décalage de 25px vers le haut*/
+    background: url(../img/bg_menu.gif) repeat-x 0 -25px;/*on met ensuite l'image de fond avec un décalage de 25px vers le haut*/
     list-style-type: none;/*on cache les puces*/
     }
     ul li{
@@ -56,7 +56,7 @@ ul{
         border-right: 2px solid #dea;/*bordure*/
       }
       ul li a:hover{
-          background: url(img/bg_menu.gif) repeat-x 0 0;/*on décale l'image de fond au passage de la souris*/
+          background: url(../img/bg_menu.gif) repeat-x 0 0;/*on décale l'image de fond au passage de la souris*/
       }
 
 /*2ème partie*/
@@ -71,7 +71,7 @@ div#contenu{
     padding-left: 25px;/*on décale le texte en fonction de l'image*/
     line-height: 25px;/*on décale le texte en fonction de l'image avec un interligne (hauteur de ligne)*/
     font-size: 1.4em;
-    background: url(img/little_apple.gif) no-repeat left bottom;
+    background: url(../img/little_apple.gif) no-repeat left bottom;
     color: #9b2;/*couleur du texte*/
     border-bottom: 1px solid #9b2;/*bordure du bas en couleur*/
   }
@@ -105,5 +105,5 @@ p#footer{
 }
 
 .href a{
-  background: url(img/title.gif)
+  background: url(../img/title.gif)
 }
