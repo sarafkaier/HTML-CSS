@@ -2,11 +2,12 @@ body{
     background-color: #a2c5b8;
 }
 .container{
+    border-width: medium;
     border-style: solid;
     border-color: black;
+    padding: inherit;
     background-color: white;
-    margin: 0 auto;
-    width: 70%;
+    margin: 17%;
 }
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 /*----- HEADER -----*/
@@ -121,17 +122,17 @@ section .rectRose{
 }
 
 section img{
-    width: 107%;
+    width: 157%;
 }
 
 section > section{/*je cible le 1er enfant <section> du parent <section>*/
 overflow: hidden;/*tout dépassement du cadre de mon contenant sera caché*/
-height: 490px;
+height: 820px;
 text-align: center;
 }
 
 section p, section h2{
-    padding: 0 6%;
+    padding: 0 15%;
 }
 
 .pBloc-left, .pBloc-right{
@@ -152,12 +153,12 @@ section p, section h2{
 
 #story img{
     transform: scaleX(-1);/*mise à l'echelle sur l'axe horizontal*/
-    width: 103%;
+    width: 129%;
 }
 
 #story div{
     transform: scaleX(-1);
-    height: 103%;
+    height: 100%;
     background-image: url(../img/asperge.jpg);
     background-size: cover;
 }
@@ -170,11 +171,11 @@ section p, section h2{
     width: 70%;
 }
 #soap{
-    height: 630px;
+    height: 900px;
 }
 
 #drink{
-    height: 529px;
+    height: 775px;
 }
 
 .txtRose{
@@ -190,8 +191,7 @@ section p, section h2{
 
 #drink .pBloc-left img{
     position: relative;
-    width: 30%;
-    /*top: 70px;*/
+    top: 25px;
     /*z-index: -1;/*position sur l'axe vertical - gère l'empilement de 2 ou plusieurs éléments*/*/
 }
 #eggs{
@@ -202,14 +202,13 @@ section p, section h2{
 /*----- FOOTER -----*/
 
 footer{
-    padding: 100px 0;
+    padding: 150px 0;
     background-image: url(../img/pattern.jpg);
-    margin-top: -31px;
 }
 
 footer > div{
     display: inline-block;
-    /*width: 50%;*/
+    width: 50%;
 }
 
 footer p{
@@ -224,7 +223,7 @@ footer p{
 }
 #social ul{
     float: right;
-    margin-right: 197px;
+    margin-right: 267px;
 }
 
 #social li{
@@ -232,8 +231,4 @@ footer p{
     text-align: right;
     margin: 0 5px;
     color: #e53f6f;
-}
-#eggs img{
-    width: 100%;
-    height: 100%;
 }

@@ -1,7 +1,7 @@
 body{
-  width: 80%;
-  font-family: cursive;/*police de l'écriture*/
-  margin: 10px auto;/*permet de centrer le body à l'intérieur de mon écran*/
+    width: 80%;
+    font-family: cursive;/*police de l'écriture*/
+    margin: 10px auto;/*permet de centrer le body à l'intérieur de mon écran*/
 }
 
 #contenu{
