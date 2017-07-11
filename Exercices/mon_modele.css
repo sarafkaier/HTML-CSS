@@ -5,7 +5,6 @@ body{
 
 #contenu{
   border: 2px solid;
-  background-color: grey;
 }
 
 header{
@@ -26,7 +25,7 @@ nav{
   padding-left: 20px;
   padding-top: 6px;
   text-align: center;
-  background-color: #F5FFFA;
+  background-color: grey;
 }
 
 section{
@@ -52,19 +51,47 @@ section{
 
 .c3{
   float: left;
-  width: 50%;
-  height:200px;
+  width: 49%;
+  height:238px;
   background-color: purple;
   margin: 2px;
 }
 
 .c4{
 float: right;
-width: 48%;
-height:200px;
+width: 49%;
+height:236px;
 background-color: yellow;
 margin: 2px;
 }
 .clear{
   clear: both;
+}
+.a{
+  float: left;
+  width: 47%;
+  height:134px;
+  background-color: purple;
+  margin: 2px;
+}
+.b{
+  float: left;
+  width: 47%;
+  height:134px;
+  background-color: grey;
+  margin: 2px;
+}
+.c{
+  float: left;
+  width: 47%;
+  height:134px;
+  background-color: pink;
+  margin: 2px;
+}
+.d{
+  float: left;
+  width: 47%;
+  height:134px;
+  background-color: lightblue;
+  margin: 2px;
 }
